@@ -9,6 +9,7 @@ package com.mycompany.mavenproject5;
  *
  * @author EmadAbdElGhanyKamelM
  */
+
 public class DatabaseConnectionManager {
     private static DatabaseConnectionManager instance;
 

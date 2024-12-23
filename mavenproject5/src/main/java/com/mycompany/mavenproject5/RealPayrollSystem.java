@@ -9,8 +9,9 @@ package com.mycompany.mavenproject5;
  * @author EmadAbdElGhanyKamelM
  */
 
-public class ITDepartment extends Department {
-    public ITDepartment() {
-        this.name = "Information Technology";
+public class RealPayrollSystem implements PayrollAccess {
+    @Override
+    public void processPayroll() {
+        System.out.println("Processing payroll for all employees...");
     }
 }

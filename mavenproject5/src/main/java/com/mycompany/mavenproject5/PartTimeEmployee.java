@@ -8,6 +8,7 @@ package com.mycompany.mavenproject5;
  *
  * @author EmadAbdElGhanyKamelM
  */
+
 public class PartTimeEmployee extends Employee {
     public PartTimeEmployee() {
         this.name = "Part-Time Employee";

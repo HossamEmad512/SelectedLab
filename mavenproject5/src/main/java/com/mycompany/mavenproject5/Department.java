@@ -8,6 +8,7 @@ package com.mycompany.mavenproject5;
  *
  * @author EmadAbdElGhanyKamelM
  */
+
 public abstract class Department {
     String name;
 

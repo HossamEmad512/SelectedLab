@@ -8,20 +8,18 @@ package com.mycompany.mavenproject5;
  *
  * @author EmadAbdElGhanyKamelM
  */
-public class Employee {
-    String name;
-    String role;
-    double salary;
-    
-    public Employee(){}
+public abstract class EmployeePrototype implements Cloneable {
+    protected String name;
+    protected String role;
 
-    public Employee(String name, String role, double salary) {
+    public EmployeePrototype(String name, String role) {
         this.name = name;
         this.role = role;
-        this.salary = salary;
     }
 
+    public abstract EmployeePrototype clone();
+
     public String getDetails() {
-        return "Name: " + name + ", Role: " + role + ", Salary: " + salary;
+        return "Name: " + name + ", Role: " + role;
     }
 }

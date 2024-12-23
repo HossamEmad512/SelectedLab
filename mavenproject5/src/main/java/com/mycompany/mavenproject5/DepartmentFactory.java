@@ -8,6 +8,7 @@ package com.mycompany.mavenproject5;
  *
  * @author EmadAbdElGhanyKamelM
  */
+
 enum DepartmentType {
     HR, FINANCE, IT
 }

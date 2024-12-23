@@ -8,9 +8,13 @@ package com.mycompany.mavenproject5;
  *
  * @author EmadAbdElGhanyKamelM
  */
+public class FullTimeEmployeePrototype extends EmployeePrototype {
+    public FullTimeEmployeePrototype(String name) {
+        super(name, "Full-Time");
+    }
 
-public class ITDepartment extends Department {
-    public ITDepartment() {
-        this.name = "Information Technology";
+    @Override
+    public EmployeePrototype clone() {
+        return new FullTimeEmployeePrototype(this.name);
     }
 }
